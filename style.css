@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Varela|Varela+Round&display=swap');
+
+.container {
+  width: 700px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+/*color theme : https://colorhunt.co/palette/158955*/
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  color: #575f7d;
+  font-family: 'Varela Round', sans-serif;
+  background-color: #F8F9FC
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+.text-center {
+  text-align: center;
+}
+.card-white {
+  background: white;
+  padding: 30px;
+  border: 1px solid lightgrey;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius:4px;
+  box-shadow: 1px 3px 30px rgba(0,0,0,0.1)
+}
+
+#footer {
+  padding: 5px;
+}
+
+#profilepic{
+  width: 100px;
+}
+
+#discoverbtn{
+  color: white;
+  margin-top: 8px;
+  display: inline-block;
+  padding: 16px;
+  border-radius: 4px;
+}
+
+h1{
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  color: #F45905;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn-hoverblack:hover {
+  background-color: #F45905;
+}
+
+.btn-blue {
+  background-color: #2a1a5e;
+  padding: 20px;
+
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline a:hover{
+  opacity: 0.6;
+  color: #fb9224;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+
+
+
