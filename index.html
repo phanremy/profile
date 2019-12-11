@@ -5,49 +5,112 @@
     <title>Remy Phan - Github Page</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
     <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
+    <div class="progress-container">
+      <div class="progress-bar" id="progress-bar">
+      </div>
+    </div>
     <div class="container">
-      <div class="card-white text-center">
-        <h1>Remy Phan</h1>
-        <h2>
-        Quality Guy<br>
-        soon-to-be Fullstack Developer
+      <div class="card text-center">
+        <img id="profilepic" class="img-circle" src="images/ProfilePic_LW_square.png" alt="">
+        <h1 class="animated zoomIn">Remy Phan</h1>
+        <h2 class="animated zoomIn">
+          Full Stack Developer
         </h2>
-        <img id="profilepic" class="img-circle" src="images/ProfilePic-square.jpeg" alt="">
         <p>
-          Hey Yo!<br>
-          Currently studying in Le Wagon 🚃, the best coding bootcamp in the world!
+          Le Wagon Paris alumni (#321), I really enjoy coding and would like to continue as a freelance!
         </p>
-        <a id="discoverbtn" class="btn-hoverblack btn-blue" href="#">Discover my projects</a>
+        <div class="d-flex-space-around">
+          <div>
+            <i class="fas fa-angle-down animated infinite fadeOutDown slower"></i>
+            <a class="discoverbtn btn-hoverblack btn-blue" href="#">Discover my projects</a>
+            <i class="fas fa-angle-down animated infinite fadeOutDown slower"></i>
+          </div>
+        </div>
       </div>
 
-<!--       <div class="card-white text-center">
-
+      <div class="card text-center d-flex-center">
+        <div>
+          <div data-aos="fade-right" class="d-flex-between project-card">
+            <div class="project-img" style="background: url(images/Lewagon-simulator.png); background-size: contain; background-position: center;"></div>
+            <a href="https://github.com/phanremy">
+              Le Wagon Simulator
+            </a>
+          </div>
+          <div data-aos="fade-left" class="d-flex-between project-card">
+            <a href="https://github.com/phanremy">
+              MIFLR
+            </a>
+            <div class="project-img" style="background: url(images/MILFR.png); background-size: contain; background-position: center;"></div>
+          </div>
+          <div data-aos="fade-right" class="d-flex-between project-card">
+            <div class="project-img" style="background: url(images/artjournal-farhafarooque.png); background-size: contain; background-position: center;"></div>
+            <a href="https://github.com/phanremy">
+              Art Journal -- Farha Farooque
+            </a>
+          </div>
+          <div class="d-flex-center project-card">
+            <i class="fab fa-github"></i>
+            <a href="https://github.com/phanremy">
+              See more on my GitHub
+            </a>
+          </div>
+        </div>
       </div>
- -->
-      <div class="card-white text-center" id="footer" >
-        <h3>Find me here</h2>
-        <ul class="list-inline">
-        <li>
-          <a href="https://github.com/phanremy">
-            <i class="fab fa-github"></i> Github
-          </a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/phanremy/">
-            <i class="fab fa-linkedin-in"></i> Linkedin
-          </a>
-        </li>
-        <li>
-          <a href="https://twitter.com/RemyFanfan">
-            <i class="fab fa-twitter"></i> Twitter
-          </a>
-        </li>
+
+      <div class="card text-center d-flex-center" id="" >
+        <div>
+          <h3>Coding languages used</h3>
+          <div>
+            <ul class="list-inline">
+              <li>
+                <img class="img-circle" src="images/html5.png" alt="">
+              </li>
+              <li>
+                <img class="img-circle" src="images/css.png" alt="">
+              </li>
+              <li>
+                <img class="img-circle" src="images/javascript.png" alt="">
+              </li>
+              <li>
+                <img class="img-circle" src="images/ruby.png" alt="">
+              </li>
+              <li>
+                <img class="img-circle" src="images/rails-logo.svg" alt="">
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="card text-center d-flex-center" id="" >
+        <div>
+          <h3>Find me also here</h3>
+          <div>
+            <ul class="list-inline">
+              <li>
+                <a href="https://www.linkedin.com/in/phanremy/">
+                  <i class="fab fa-linkedin-in"></i> Linkedin
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/RemyFanfan">
+                  <i class="fab fa-twitter"></i> Twitter
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
 
     </div>
-    </ul>
+  </div>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
+  <script src="script.js"></script>
   </body>
 </html>
