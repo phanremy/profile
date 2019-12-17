@@ -80,10 +80,11 @@ body {
 }
 
 .project-img {
-  width: 350px;
-  height: 200px;
+  width: 325px;
+  height: 190px;
   display: inline-block;
-  background:white;
+  background: transparent;
+  box-shadow: 1px 3px 30px rgba(0,0,0,0.1);
 }
 
 .project-card {
@@ -95,6 +96,7 @@ body {
 
 .project-card a {
   color: #2a1a5e;
+  padding: 0 10px;
 }
 
 .project-card a:hover {
