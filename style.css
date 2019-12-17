@@ -191,6 +191,11 @@ a {
   #profilepic{
     margin-top: 20px;
   }
+
+  .project-img {
+    width: 160px;
+    height: 95px;
+  }
 }
 @media (max-width: 720px) {
   /* For a screen < 720px, this CSS will be read */
@@ -200,6 +205,11 @@ a {
 
   #profilepic{
     margin-top: 20px;
+  }
+
+  .project-img {
+    width: 160px;
+    height: 95px;
   }
 }
 
@@ -211,6 +221,11 @@ a {
 
   #profilepic{
     margin-top: 20px;
+  }
+
+  .project-img {
+    width: 160px;
+    height: 95px;
   }
 }
 
