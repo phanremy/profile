@@ -84,7 +84,7 @@ body {
   height: 190px;
   display: inline-block;
   background: transparent;
-  box-shadow: 1px 3px 30px rgba(0,0,0,0.1);
+  /*box-shadow: 1px 3px 30px rgba(0,0,0,0.1);*/
 }
 
 .project-card {
