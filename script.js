@@ -8,3 +8,11 @@ document.addEventListener('scroll', (event) => {
   },
   { passive: true }
 );
+
+const discover = document.querySelector(".discoverbtn");
+discover.addEventListener('click', (event) => {
+  // event.preventDefault;
+  // // console.log(event);
+  // const hash = this.hash;
+  // console.log(hash);
+});
