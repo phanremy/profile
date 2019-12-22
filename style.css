@@ -87,6 +87,12 @@ body {
   /*box-shadow: 1px 3px 30px rgba(0,0,0,0.1);*/
 }
 
+.project-img:hover{
+ width:500px;
+ height: 300px;
+ transition: 0.4s;
+}
+
 .project-card {
   margin: 20px 0;
   /*border: 1px solid lightgrey;*/
@@ -101,7 +107,7 @@ body {
 
 .project-card a:hover {
   color: #F45905;
-  cursor:grabbing;
+  cursor:pointer;
 
 }
 
