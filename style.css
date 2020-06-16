@@ -27,7 +27,7 @@ body {
   text-align: center;
 }
 
-.card {
+.portfolio-card {
   background: #F8F9FC;
   padding: 0px;
   /*border: 1px solid lightgrey;*/
@@ -73,6 +73,7 @@ body {
   margin: 16px;
   border-radius: 4px;
   background-color: #2a1a5e;
+  transition: all .3s ease;
 }
 
 .discoverbtn:hover {
@@ -85,13 +86,13 @@ body {
   display: inline-block;
   background: transparent;
   /*box-shadow: 1px 3px 30px rgba(0,0,0,0.1);*/
-  transition: 0.4s;
+  transition: all .5s ease;
 }
 
 .project-img:hover{
  width:500px;
  height: 300px;
- transition: 0.4s;
+ transition: all .5s ease;
 }
 
 .project-card {
@@ -117,11 +118,12 @@ body {
 .project-card a {
   color: #2a1a5e;
   padding: 0 10px;
+  transition: all .3s ease;
 }
 
 .project-card a:hover {
   color: #F45905;
-  cursor:pointer;
+  cursor: pointer;
 
 }
 
@@ -168,6 +170,7 @@ a {
 .list-inline a:hover{
   opacity: 0.6;
   color: #F45905;
+  transition: all .3s ease;
 }
 
 .list-inline > li {
