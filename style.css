@@ -250,6 +250,16 @@ a {
     width: 160px;
     height: 95px;
   }
+
+  .project-card a {
+    font-size:12px;
+  }
+
+  .project-img:hover{
+   width:400px;
+   height: 200px;
+   transition: all .5s ease;
+  }
 }
 
 
