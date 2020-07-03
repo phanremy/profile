@@ -130,7 +130,7 @@ body {
 .project-card a {
   /*color: #2a1a5e;*/
   /*color: white;*/
-  padding: 0 20px;
+  /*padding: 0 20px;*/
   transition: all .3s ease;
 }
 
@@ -258,7 +258,7 @@ p {
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
-    width: 600px;
+    width: 95vw;
   }
 
   #profilepic{
@@ -266,14 +266,14 @@ p {
   }
 
   .project-img {
-    width: 300px;
-    height: 200px;
+    width: 500px;
+    height: 400px;
   }
 }
 @media (max-width: 720px) {
   /* For a screen < 720px, this CSS will be read */
   .container {
-    width: 500px;
+    width: 95vw;
   }
 
   #profilepic{
@@ -289,7 +289,7 @@ p {
 @media (max-width: 540px) {
   /* For a screen < 540px, this CSS will be read */
   .container {
-    width: 300px;
+    width: 95vw;
   }
 
   #profilepic{
