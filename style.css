@@ -103,6 +103,7 @@ body {
 
 .miscellanious-card {
   min-height: 80vh;
+  width: 100%;
 }
 
 .project-img {
