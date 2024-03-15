@@ -107,7 +107,7 @@ body {
 }
 
 .project-img {
-  width:500px;
+  width: 500px;
   height: 300px;
   display: inline-block;
   background: transparent;
@@ -115,8 +115,15 @@ body {
   transition: all .5s ease;
 }
 
+
+.project-img:hover{
+  width: 700px;
+  height: 500px;
+  transition: all .5s ease;
+}
+
 /*.project-img:hover{
- width:500px;
+ width: 500px;
  height: 300px;
  transition: all .5s ease;
 }*/
@@ -270,7 +277,15 @@ p {
     width: 500px;
     height: 400px;
   }
+
+
+  .project-img:hover{
+    width: 700px;
+    height: 500px;
+    transition: all .5s ease;
+  }
 }
+
 @media (max-width: 720px) {
   /* For a screen < 720px, this CSS will be read */
   .container {
@@ -284,6 +299,12 @@ p {
   .project-img {
     width: 300px;
     height: 200px;
+  }
+
+  .project-img:hover{
+    width: 400px;
+    height: 400px;
+    transition: all .5s ease;
   }
 }
 
@@ -302,14 +323,15 @@ p {
     height: 200px;
   }
 
-  .project-card a {
-    font-size:12px;
-  }
 
   .project-img:hover{
-   width:400px;
-   height: 200px;
-   transition: all .5s ease;
+    width: 400px;
+    height: 400px;
+    transition: all .5s ease;
+  }
+
+  .project-card a {
+    font-size:12px;
   }
 }
 
