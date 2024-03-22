@@ -97,7 +97,7 @@ body {
 }
 
 .miscellanious:hover{
-  font-size: 25px;
+  font-size: 30px;
   transition: all 0.4s ease;
 }
 
@@ -160,7 +160,7 @@ body {
   opacity:1;
 }
 
-h1, h2, h3 {
+h1, h2, h3, .heading {
   font-family: 'animeace', sans-serif;
   color: #F45905;
   /*color: white;*/
@@ -195,6 +195,7 @@ a:hover{
 }
 
 .discover-div {
+  opacity: 0;
   transition: all 2s ease;
 }
 
