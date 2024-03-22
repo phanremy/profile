@@ -195,7 +195,7 @@ a:hover{
 }
 
 .discover-div {
-  transition: all .1s ease;
+  transition: all 2s ease;
 }
 
 .discoverbtn{
