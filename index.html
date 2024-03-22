@@ -54,7 +54,7 @@
             Le Wagon Paris alumni (#321), I truly enjoy coding and would like to continue it as a Web Developer!
           </p>
           <div class="d-flex-space-around">
-            <div>
+            <div class="discover-div">
               <i class="fas fa-angle-down animated infinite fadeOutDown slower"></i>
               <a class="discoverbtn btn-hoverblack btn-blue" href="#project-card">Discover my projects</a>
               <i class="fas fa-angle-down animated infinite fadeOutDown slower"></i>
@@ -156,7 +156,7 @@
                     <span style="padding-left:10px;"> </span> See more on my Github
                   </a>
                 </p>
-                <div>
+                <div class="discover-div">
                   <i class="fas fa-angle-down animated infinite fadeOutDown slower"></i>
                   <a class="discoverbtn btn-hoverblack btn-blue" href="#language-card">What I learned in Le Wagon</a>
                   <i class="fas fa-angle-down animated infinite fadeOutDown slower"></i>
@@ -238,7 +238,7 @@
           </div>
           <br>
           <br>
-          <div>
+          <div class="discover-div">
             <i class="fas fa-angle-down animated infinite fadeOutDown slower"></i>
             <a class="discoverbtn btn-hoverblack btn-blue" href="#miscellanious">Where to find me</a>
             <i class="fas fa-angle-down animated infinite fadeOutDown slower"></i>
@@ -266,7 +266,7 @@
               </ul>
             </div>
           </div>
-            <div>
+            <div class="discover-div">
               <i class="fas fa-angle-up animated infinite fadeOutUp slower"></i>
               <a class="discoverbtn btn-hoverblack btn-blue" href="#top">Back to Top</a>
               <i class="fas fa-angle-up animated infinite fadeOutUp slower"></i>
@@ -297,5 +297,15 @@
   <script>AOS.init();</script>
   <script src="script.js"></script>
   <script src="flickity.pkgd.min.js"></script>
+  <script>
+    document.querySelectorAll('.discover-div').forEach((div) => {
+      div.style.opacity = 0
+    })
+    window.addEventListener('load', function () {
+      document.querySelectorAll('.discover-div').forEach((div) => {
+        div.style.opacity = 1
+      })
+    })
+  </script>
   </body>
 </html>

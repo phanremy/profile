@@ -194,6 +194,10 @@ a:hover{
   transition: all .3s ease;
 }
 
+.discover-div {
+  transition: all .1s ease;
+}
+
 .discoverbtn{
   text-decoration: none;
   color: white !important;
